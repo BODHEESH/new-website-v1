@@ -65,7 +65,7 @@ export default function Header() {
 
           {/* Contact Us Button */}
           <div className="hidden lg:flex items-center">
-            <button className="group relative bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-500 shadow-md text-sm font-medium inline-flex items-center gap-2 overflow-hidden hover:scale-105">
+            <Link href="/contact" className="group relative bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-500 shadow-md text-sm font-medium inline-flex items-center gap-2 overflow-hidden hover:scale-105">
               {/* Arrow on Left (hidden initially, appears on hover pointing right) */}
               <span className="relative z-10 bg-white rounded-full p-1 opacity-0 -translate-x-6 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500">
                 <svg className="w-2.5 h-2.5 text-blue-600 transform rotate-180 group-hover:rotate-0 transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -81,7 +81,7 @@ export default function Header() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" />
                 </svg>
               </span>
-            </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -126,7 +126,7 @@ export default function Header() {
                   )}
                 </div>
               ))}
-              <button className="group relative bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-500 shadow-md mt-4 inline-flex items-center gap-2 overflow-hidden hover:scale-105">
+              <Link href="/contact" className="group relative bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-500 shadow-md mt-4 inline-flex items-center gap-2 overflow-hidden hover:scale-105">
                 {/* Arrow on Left (hidden initially, appears on hover pointing right) */}
                 <span className="relative z-10 bg-white rounded-full p-1 opacity-0 -translate-x-6 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500">
                   <svg className="w-2.5 h-2.5 text-blue-600 transform rotate-180 group-hover:rotate-0 transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -142,7 +142,7 @@ export default function Header() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" />
                   </svg>
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
         )}
